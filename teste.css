@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+
+form {
+    background-color: white;
+    padding: 30px 34px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(red, green, blue, alpha);
+    width: 400px;
+    height: 350px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+input[type="Nome"],
+input[type="Telefone"],
+input[type="email"],
+input[type="duvida"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Para o padding não aumentar a largura */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 18px;
+    background-color: #070707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #a04545;
+      transition: 0.5s;
+   
+}
